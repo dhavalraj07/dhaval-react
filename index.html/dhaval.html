@@ -1,83 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Document</title>
 </head>
-
 <body>
-    <form oninput="result.value=age.value">
-        <div>
-                <label for="firstName">Enter your First Name</label><br>
-                <input type="text" id="firstName" required autocomplete="family-name" placeholder="firstName"><br><br>
+    <u>
+        <i>hello world</i><br>
+        <strong>hello </strong>
+        <hr width="50" align="left"> 
+    </u>
 
+    <h1>hello</h1>
+    <br>
 
-                <label for="lasttName">Enter your Last Name</label><br>
-                <input type="text" id="lasttName" required autocomplete="family-name" placeholder="lasttName"><br><br>
-        </div>
-        
-        <label for="gender">gender</label>
+    <h2>paragraph</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, doloremque.</p>
+    <br>
+
+    <h3>images</h3>
+        <img src="https://www.pixelstalk.net/wp-content/uploads/2016/08/Lamborghini-mountain-fog-sports-car-photos.jpg" alt="car" width="200" height="200" title="car">
+    <br>
+    <img src="https://www.pixelstalk.net/wp-content/uploads/2016/08/Lamborghini-mountain-fog-sports-car-photos.jpg" alt="car" width="200" height="100" title="car">
+    <img src="https://ik.imagekit.io/mdzi40eohii/production/images/607e21e810beff7a8011b340_image_1_perks_education_x_template_4c74ae5439_wh8DlB2Bc.svg?tr=h-192,w-192,w-384,q-75" alt="live">
+
+    <br>
+    
+    <h4>list</h4>
+    <ol type="A">
+        <li>dhaval</li>
+        <li>bapu</li>
+        <li>amit</li>
+        <li>milan</li>
+    </ol>
+
+    <h5>unorder list</h5>
+    
+    <ul type="square">
+        <li>dhaval</li>
+        <li>bapu</li>
+        <li>amit</li>
+        <li>milan</li>
+    </ul>
+    <br>
+
+    <table width="600" height="100" bgcolor="red" border="1" align="rightr">
+        <tr align="right"> 
+            <th bgcolor="blue">home</th>
+            <th bgcolor="blue">about</th>
+        </tr>
+        <tr align="right">
+            <th bgcolor="blue">course</th>
+            <th bgcolor="blue">gallery</th>
+        </tr>
+        </table>
         <br>
-            <input type="radio" name="gender" id="male">
-            <label for="male">male</label><br>
-
-            <input type="radio" name="gender" id="female">
-            <label for="female">female</label><br>
-        </div><br>
-
-        
-        <div>
-            <label for="tel">Phone Number</label><br>
-            <input type="tel" id="tel" placeholder="Enter your Number" required autocomplete="tel">
-        </div><br>
-       
-
-        <div>
-            <label for="email">Email</label><br>
-            <input type="email" id="email" placeholder="Enter your Email" required autocomplete="email">
-        </div><br>
-
-        <div>
-            <label for="password">Password</label><br>
-            <input type="password" id="password" placeholder="Enter your Password" required autocomplete="new-password">
-        </div><br>
-
- 
-        <div>
-            <label for="date">DOB</label>
-            <input type="date" id="date" required autocomplete="bday">
-        </div><br>
-
-        <div>
-            <label for="age">age 0 to 100</label>
-            <input type="range" id="age" name="age" min="0" max="100">
-            <output name="result" for="age"></output>
-        </div><br>
-
-        <div><label for="file">Select your File</label><br>
-            <input type="file" name="file" id="file">
-        </div><br>
-
+        <table border="1" align="center" cellpadding="10" cellspacing="0">
+            <tr>
+                <th colspan="7">may, 2024</th>
+            </tr>
+            <tr>
+                <th>su</th>
+                <th>mon</th>
+                <th>tue</th>
+                <th>wed</th>
+                <th>thur</th>
+                <th>fri</th>
+                <th>sat</th>
+            </tr>
+            <tr align="center">
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+            </tr>
+            <tr align="center">
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+            </tr>
+            <tr align="center">
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+            </tr>
+            <tr align="center">
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+            </tr>
+        </table>
+        <br>
+        <table  border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>in</th>
+                    <th>break</th>
+                    <th>out</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>dhaval</td>
+                    <td>10:30</td>
+                    <td rowspan="4">02:30</td>
+                    <td>07:30</td>
+                </tr>
+                <tr>
+                    <td>sunil</td>
+                    <td>10:30</td>
+    
+                    <td>07:30</td>
+                </tr>
+                <tr>
+                    <td>om</td>
+                    <td>10:30</td>
+                    
+                    <td>07:30</td>
+                </tr>
+                <tr>
+                    <td>dev</td>
+                    <td>10:30</td>
+                    
+                    <td>07:30</td>
+                </tr>
+            </tbody>
+            
+        </table>
     
 
-        <div>
-            <label for="homepage">Add your Homepage:</label>
-            <input type="url" id="homepage" name="homepage">
-        </div><br>
 
-        <div>
-            <label for="week">Select a Week:</label>
-            <input type="week" id="week">
-        </div><br>
-
-        <div>
-            <input type="reset" value="reset">
-            <input type="button" value="submit">
-        </div>
-
-    </form>
+        
+    
 </body>
-
 </html>
